@@ -1,0 +1,35 @@
+label {
+  display: block;
+  color: #344863;
+  font-size: 14px;
+}
+input,
+select,
+textarea {
+  display: block;
+  border: 1px solid rgba($color: #344863, $alpha: 0.75);
+  color: #344863;
+  border-radius: 4px;
+  width: 100%;
+  padding: 4px 8px;
+  &[type="file"] {
+    border: none;
+  }
+  &[type="file"] {
+    border: none;
+  }
+  &[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+  }
+  &:disabled {
+    border-color: #c7c7c7;
+    color: #bcbcbc;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+select {
+  cursor: pointer;
+}
