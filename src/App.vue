@@ -7,5 +7,6 @@
   </v-locale-provider>
 </template>
 
-<style scoped lang="scss">
+<style  lang="scss">
+@import "./styles/styles.scss";
 </style>

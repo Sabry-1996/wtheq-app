@@ -21,8 +21,8 @@ export default {
           component: () => import("./OTP.vue"),
         },
         {
-          path: "/forget_password",
-          name: "forget_password",
+          path: "/forget-password",
+          name: "forget-password",
           component: () => import("./ForgetPassword.vue"),
         },
         {

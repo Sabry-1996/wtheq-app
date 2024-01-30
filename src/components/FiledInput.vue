@@ -14,7 +14,7 @@
           :disabled="disabled"
         />
       </div>
-      <p class="error-text" v-if="error">{{ errorText }}</p>
+      <!-- <p class="error-text" v-if="error">{{ errorText }}</p> -->
     </div>
   </label>
 </template>
@@ -63,4 +63,10 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.filed__input {
+  padding: 12px 16px;
+  border-radius: 16px;
+  border: 1px solid #e8e8e8;
+  color: #9e9e9e;
+}
 </style>

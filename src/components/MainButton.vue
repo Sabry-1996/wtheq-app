@@ -9,9 +9,7 @@
   </button>
 </template>
 <script>
-import loader from "./loader.vue";
 export default {
-  components: { loader },
   props: {
     isLoading: {
       type: Boolean,
